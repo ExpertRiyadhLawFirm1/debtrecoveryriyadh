@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="الدليل الشامل والاستراتيجي لتحصيل الديون التجارية والمستحقات المالية بالرياض. حلول قانونية وودية لاستعادة حقوق الشركات والأفراد.">
+    <title>دليل تحصيل الديون بالرياض | استراتيجيات استرداد الأموال للشركات</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #0d3b36;
+            --primary-light: #16524b;
+            --primary-dark: #06201e;
+            --secondary: #f59e0b;
+            --secondary-hover: #d97706;
+            --bg-main: #fbf9f5;
+            --bg-alt: #f0ece1;
+            --text-main: #06201e;
+            --text-muted: #4a5d5b;
+            --white: #ffffff;
+            --shadow-sm: 0 2px 8px rgba(13, 59, 54, 0.06);
+            --shadow-md: 0 8px 24px rgba(13, 59, 54, 0.1);
+            --shadow-lg: 0 16px 32px rgba(13, 59, 54, 0.15);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Tajawal', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .section-padding {
+            padding: 90px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 60px;
+        }
+
+        .section-tag {
+            display: inline-block;
+            background-color: rgba(245, 158, 11, 0.15);
+            color: var(--secondary-hover);
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .section-title {
+            font-size: 2.3rem;
+            color: var(--primary);
+            font-weight: 800;
+            line-height: 1.3;
+            margin-bottom: 15px;
+        }
+
+        .section-subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        /* 1. Header / Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            background: rgba(251, 249, 245, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(13, 59, 54, 0.08);
+            padding: 18px 0;
+            transition: var(--transition);
+        }
+
+        .navbar-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary);
+            color: var(--secondary);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 800;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-link {
+            font-weight: 600;
+            color: var(--text-main);
+            font-size: 1rem;
+        }
+
+        .nav-link:hover {
+            color: var(--secondary-hover);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--secondary), #d97706);
+            color: var(--primary-dark);
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.3);
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(245, 158, 11, 0.45);
+        }
+
+        /* 2. Hero Section */
+        .hero {
+            padding: 160px 0 100px;
+            background: linear-gradient(135deg, var(--bg-main) 0%, var(--bg-alt) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--primary);
+            line-height: 1.25;
+            margin-bottom: 20px;
+        }
+
+        .hero-title span {
+            color: var(--secondary-hover);
+            background: linear-gradient(120deg, var(--primary) 0%, var(--secondary-hover) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-desc {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 35px;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+
+        .hero-image-wrapper {
+            position: relative;
+        }
+
+        .hero-img {
+            width: 100%;
+            height: 480px;
+            object-fit: cover;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            border: 6px solid var(--white);
+        }
+
+        .hero-badge {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            background: var(--white);
+            padding: 20px 25px;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-md);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-right: 5px solid var(--secondary);
+        }
+
+        .badge-number {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--primary);
+            line-height: 1;
+        }
+
+        .badge-text {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 700;
+        }
+
+        /* 3. Quick Stats Grid */
+        .stats {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 50px 0;
+            margin-top: -30px;
+            position: relative;
+            z-index: 10;
+            border-radius: var(--radius-md);
+            margin-bottom: 40px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.8rem;
+            font-weight: 900;
+            color: var(--secondary);
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: #d1d5db;
+        }
+
+        /* 4. Overview Section */
+        .overview-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .overview-card {
+            background-color: var(--bg-alt);
+            padding: 40px;
+            border-radius: var(--radius-md);
+            border-right: 4px solid var(--primary);
+        }
+
+        .overview-card h3 {
+            font-size: 1.6rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        /* 5. Main Featured Article Section */
+        .article-section {
+            background-color: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 60px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(13, 59, 54, 0.05);
+        }
+
+        .article-header {
+            border-bottom: 2px solid var(--bg-alt);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        .article-title {
+            font-size: 2.2rem;
+            color: var(--primary);
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .article-content {
+            font-size: 1.15rem;
+            line-height: 2;
+            color: #2c3e50;
+        }
+
+        .article-content p {
+            margin-bottom: 25px;
+        }
+
+        .article-content h3 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin: 35px 0 15px;
+            font-weight: 700;
+        }
+
+        .article-content blockquote {
+            background-color: var(--bg-alt);
+            border-right: 5px solid var(--secondary);
+            padding: 20px 30px;
+            margin: 30px 0;
+            border-radius: var(--radius-sm);
+            font-style: italic;
+            font-weight: 600;
+        }
+
+        .article-backlink {
+            color: var(--primary);
+            font-weight: 800;
+            text-decoration: underline;
+            text-decoration-color: var(--secondary);
+            text-underline-offset: 5px;
+            padding: 2px 6px;
+            background-color: rgba(245, 158, 11, 0.1);
+            border-radius: 4px;
+        }
+
+        .article-backlink:hover {
+            background-color: var(--secondary);
+            color: var(--primary-dark);
+        }
+
+        .outbound-link {
+            color: var(--primary-light);
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        /* 6. Core Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: var(--white);
+            padding: 35px;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(13, 59, 54, 0.05);
+            transition: var(--transition);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--secondary);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background-color: var(--bg-alt);
+            color: var(--primary);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        /* 7. Step-by-Step Architecture Guide */
+        .steps-wrapper {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            position: relative;
+        }
+
+        .step-card {
+            background-color: var(--white);
+            padding: 30px;
+            border-radius: var(--radius-md);
+            position: relative;
+            box-shadow: var(--shadow-sm);
+            border-top: 4px solid var(--primary);
+        }
+
+        .step-num {
+            position: absolute;
+            top: -20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: var(--secondary);
+            color: var(--primary-dark);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 1.2rem;
+        }
+
+        .step-card h4 {
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin: 15px 0 10px;
+        }
+
+        /* 8. Comparison Table */
+        .table-wrapper {
+            overflow-x: auto;
+            background: var(--white);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .comp-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: right;
+        }
+
+        .comp-table th, .comp-table td {
+            padding: 20px 25px;
+            border-bottom: 1px solid var(--bg-alt);
+        }
+
+        .comp-table th {
+            background-color: var(--primary);
+            color: var(--white);
+            font-size: 1.1rem;
+        }
+
+        .comp-table tr:hover {
+            background-color: rgba(240, 236, 225, 0.4);
+        }
+
+        .badge-check {
+            color: #10b981;
+            font-weight: bold;
+        }
+
+        .badge-cross {
+            color: #ef4444;
+            font-weight: bold;
+        }
+
+        /* 9. FAQ Section */
+        .faq-accordion {
+            max-width: 850px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .faq-item {
+            background-color: var(--white);
+            border-radius: var(--radius-sm);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(13, 59, 54, 0.05);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 22px 30px;
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: var(--primary);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .faq-answer {
+            padding: 0 30px 22px;
+            color: var(--text-muted);
+            display: none;
+            border-top: 1px solid var(--bg-alt);
+            padding-top: 15px;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-toggle {
+            font-size: 1.5rem;
+            color: var(--secondary-hover);
+            transition: var(--transition);
+        }
+
+        .faq-item.active .faq-toggle {
+            transform: rotate(45deg);
+        }
+
+        /* 10. Expert Tips Cards */
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .tip-card {
+            background: linear-gradient(180deg, var(--white) 0%, var(--bg-alt) 100%);
+            padding: 30px;
+            border-radius: var(--radius-md);
+            border-right: 4px solid var(--secondary);
+        }
+
+        .tip-card h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        /* 11. Testimonials Showcase */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+        }
+
+        .quote-icon {
+            font-size: 3rem;
+            color: var(--secondary);
+            line-height: 1;
+            opacity: 0.3;
+        }
+
+        .client-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .client-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .client-name {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .client-role {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* 12. Highlighted Resource Banner */
+        .resource-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 60px;
+            border-radius: var(--radius-lg);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .resource-banner h2 {
+            font-size: 2.2rem;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        .resource-banner p {
+            max-width: 650px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+            color: #e5e7eb;
+        }
+
+        /* 13. Contact Form Section */
+        .contact-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            background-color: var(--white);
+            padding: 50px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 14px 18px;
+            border: 1px solid #d1d5db;
+            border-radius: var(--radius-sm);
+            background-color: var(--bg-main);
+            font-size: 1rem;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(13, 59, 54, 0.1);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            height: 120px;
+        }
+
+        .contact-info-box {
+            background-color: var(--bg-alt);
+            padding: 40px;
+            border-radius: var(--radius-md);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .info-icon {
+            width: 45px;
+            height: 45px;
+            background-color: var(--primary);
+            color: var(--secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        /* 14. Footer */
+        .footer {
+            background-color: var(--primary-dark);
+            color: var(--white);
+            padding: 70px 0 30px;
+            border-top: 3px solid var(--secondary);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .footer-about p {
+            color: #9ca3af;
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+
+        .footer-title {
+            color: var(--secondary);
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: #d1d5db;
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--secondary);
+            padding-right: 5px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #9ca3af;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 1024px) {
+            .hero-grid, .overview-grid, .contact-wrapper {
+                grid-template-columns: 1fr;
+            }
+            .features-grid, .tips-grid, .testimonials-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .steps-wrapper, .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .hero-title {
+                font-size: 2.2rem;
+            }
+            .section-title {
+                font-size: 1.8rem;
+            }
+            .features-grid, .tips-grid, .testimonials-grid, .steps-wrapper, .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            .article-section {
+                padding: 30px 20px;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Modern Sticky Navigation Bar -->
+    <header class="navbar">
+        <div class="container navbar-wrapper">
+            <a href="#" class="logo">
+                <div class="logo-icon">⚖️</div>
+                <span>تحصيل بالرياض</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#overview" class="nav-link">عن المنصة</a></li>
+                    <li><a href="#article" class="nav-link">الدليل الاستراتيجي</a></li>
+                    <li><a href="#features" class="nav-link">خدماتنا</a></li>
+                    <li><a href="#steps" class="nav-link">خطوات العمل</a></li>
+                    <li><a href="#faq" class="nav-link">الأسئلة الشائعة</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn-primary">استشارة قانونية</a>
+        </div>
+    </header>
+
+    <!-- 2. Dynamic Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="section-tag">المنصة الأولى لتحصيل الأموال بالرياض</span>
+                <h1 class="hero-title">استرداد <span>الديون التجارية</span> والمستحقات بأعلى كفاءة قانونية</h1>
+                <p class="hero-desc">نقدم استراتيجيات متكاملة وحلولاً حاسمة لتحصيل الديون المتعثرة والمستحقات المالية للشركات والمؤسسات في مدينة الرياض وفق الأنظمة السعودية الحديثة.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn-primary">ابدأ تحصيل ديونك الآن</a>
+                    <a href="#article" class="btn-secondary">اقرأ الدليل الشامل</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80" alt="تحصيل الديون بالرياض - أجهزة وأعمال" class="hero-img">
+                <div class="hero-badge">
+                    <div class="badge-number">%94</div>
+                    <div class="badge-text">نسبة نجاح التسويات<br>الودية والقضائية</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Quick Stats & Achievements Grid -->
+    <section class="container">
+        <div class="stats">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">+500M</div>
+                    <div class="stat-label">ريال سعودي تم استردادها</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">+1,200</div>
+                    <div class="stat-label">قضية تحصيل ناجحة</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">عاماً من الخبرة القانونية</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">%98</div>
+                    <div class="stat-label">رضا كبار العملاء والشركات</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Platform Overview / Editorial Mission Section -->
+    <section id="overview" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">رؤيتنا ورسالتنا</span>
+                <h2 class="section-title">حماية الاستقرار المالي للمنشآت في العاصمة</h2>
+                <p class="section-subtitle">نعمل كشريك استراتيجي لحماية التدفقات النقدية للشركات وتجنيبها مخاطر الديون المعدومة.</p>
+            </div>
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <h3>الرؤية القانونية والمالية</h3>
+                    <p>تسعى المنصة إلى المساهمة في خلق بيئة أعمال آمنة ومستقرة في مدينة الرياض من خلال تطبيق أرقى المعايير المهنية في استرداد المبالغ المالية وتصفية الحسابات المعلقة بين الشركات بكل سلاسة ونزاهة.</p>
+                </div>
+                <div class="overview-card">
+                    <h3>منهجية التحصيل الحديثة</h3>
+                    <p>نعتمد على التقنيات التفاوضية المتقدمة مدعومة بالضغط القانوني المشروع عبر المحاكم والمراكز المختصة، مما يضمن تقليل المدى الزمني للاسترداد وتحقيق أعلى معدلات الاستجابة من المدينين.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Main Featured Article Section -->
+    <section id="article" class="section-padding" style="background-color: var(--bg-alt);">
+        <div class="container">
+            <article class="article-section">
+                <header class="article-header">
+                    <span class="section-tag">مقالة متخصصة</span>
+                    <h1 class="article-title">الطرق الاستراتيجية لتحصيل المستحقات والديون التجارية بالرياض</h1>
+                    <div class="article-meta">
+                        <span>بقلم: خبير التحصيل والأنظمة التجارية</span> •
+                        <span>تاريخ النشر: أغسطس 2026</span> •
+                        <span>زمن القراءة: 6 دقائق</span>
+                    </div>
+                </header>
+                
+                <div class="article-content">
+                    <p>تتأثر التدفقات النقدية للشركات بمدينة الرياض نتيجة تأخر المستحقات المالية والديون المعدومة أو المماطلة من قبل أطراف التعامل. وتعتبر السيولة المالية هي العصب الحيوي الذي يضمن استمرارية المنشآت التجارية وتوسعها في السوق السعودي المتنامي. وعندما تتراكم الأوراق التجارية غير المسددة أو تتأخر المستحقات الناتجة عن عقود توريد وخبرات تشغيلية، تصبح الشركة عرضة لمخاطر تشغيلية جسيمة قد تهدد بقاءها.</p>
+
+                    <h3>أولاً: أسباب أزمة الديون المتعثرة في بيئة الأعمال</h3>
+                    <p>تتعدد العوامل التي تؤدي إلى تعثر التحصيل المالي، وتتنوع بين سوء إدارة الإئتمان لدى المنشأة، أو غياب الصياغة القانونية المحكمة للعقود والاتفاقيات. إن الاعتماد على الوعود الشفهية أو التساهل في تحرير سندات لأمر وتوثيق الفواتير يسهم بشكل مباشر في استغلال المماطلين للوقت. من هنا تبرز أهمية بناء استراتيجية صارمة لإدارة المخاطر الائتمانية قبل الوقوع في فخ الديون المعدومة.</p>
+
+                    <blockquote>
+                        "إن الإدارة الحصيفة للائتمان لا تتوقف عند منح الآجل، بل تمتد لتشمل المتابعة الدورية والاستجابة القانونية السريعة فور تجاوز مواعيد الاستحقاق."
+                    </blockquote>
+
+                    <h3>ثانياً: مسارات الحلول القانونية والتسويات الودية</h3>
+                    <p>وتوفر الحلول القانونية مسارات متسارعة تبدأ بالتسويات الودية وتنتهي بالمطالبات القضائية المباشرة عبر محاكم الرياض. وتعتبر المرحلة الودية هي الخطوة الأولى والأكثر كفاءة من حيث الوقت والتكلفة، حيث يتم التواصل مع المماطلين عبر إخطارات رسمية ودية ودراسة ملاءتهم المالية لإيجاد جدولة زمنية ملزمة. وفي حال عدم الاستجابة، يتم الانتقال المباشر إلى الطرق النظامية.</p>
+
+                    <p>يتيح فريق العمل المختص بـ <a href="https://expertriyadhlawfirm.com/services/finance-banking-tax/debt-collection" class="article-backlink" target="_blank" rel="dofollow">تحصيل الديون بالرياض</a> إعداد صحف الدعاوى والمتابعة حتى التنفيذ. إن وجود المستشار القانوني الماهر يضمن تقديم السندات والأوراق التجارية إلى محاكم التنفيذ بشكل يستوفي كافة الشروط الشكلية والموضوعية، مما يقلل من أوقات التقاضي ويكفل صدور الأحكام والقرارات التنفيذية كـ (القرار 34 والقرار 46) بسرعة وفاعلية.</p>
+
+                    <h3>ثالثاً: الدور الجوهري لمحاكم التنفيذ بالنظام السعودي</h3>
+                    <p>شهدت المنظومة العدلية في المملكة العربية السعودية تطوراً هائلاً عبر التحول الرقمي وتفعيل منصات مثل <a href="https://najiz.sa" class="outbound-link" target="_blank" rel="noopener">منصة ناجز</a> التابعة لـ <a href="https://www.moj.gov.sa" class="outbound-link" target="_blank" rel="noopener">وزارة العدل السعودية</a>. هذا التحول مكّن الدائنين من تنفيذ الأحكام والسندات التنفيذية إلكترونياً، وتطبيق إجراءات منع السفر، وحجز الحسابات البنكية، وإيقاف الخدمات للمماطلين بمرونة عالية، مما أسهم في تسريع وثيرة استعادة الحقوق لأصحابها.</p>
+
+                    <h3>رابعاً: الأثر الإيجابي للتحصيل الفعال على كفاءة الشركات</h3>
+                    <p>التحصيل الفعال للديون يحافظ على الاستقرار المالي للمنشأة ويضمن إعادة تعويم رأس المال العامل في دورات استثمارية جديدة بدلاً من تجميده. كما يسهم في تعزيز القيمة السوقية للشركة أمام الشركاء والمستثمرين والمؤسسات المصرفية. إن الاستعانة بالخبراء والمتخصصين في هذا المجال ليس مجرد إجراء علاجي، بل هو استثمار استراتيجي يستهدف حماية أصول الشركة واستمرار نموها بثبات في الاقتصاد الوطني.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 6. Core Features & Key Value Grid -->
+    <section id="features" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">لماذا نتميز؟</span>
+                <h2 class="section-title">حلول متكاملة لاسترداد المستحقات</h2>
+                <p class="section-subtitle">نوفر حزمة متكاملة من الخدمات المصممة خصيصاً لتلبية احتياجات القطاع التجاري والصناعي.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>التفاوض والتسوية الودية</h3>
+                    <p>التواصل الاحترافي مع المدينين والوصول إلى حلول جدولة سريعة ومربحة دون الحاجة للدخول في نزاعات قضائية طويلة.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📜</div>
+                    <h3>التنفيذ القضائي السريع</h3>
+                    <p>رفع السندات لأمر والأوراق التجارية مباشرة عبر محاكم التنفيذ بالرياض للحصول على قرارات إجبارية فورية.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔎</div>
+                    <h3>تقارير التقصي والاستعلام</h3>
+                    <p>دقيقة للغاية للبحث عن الأصول والملاءة المالية للمدينين لضمان قدرة الأطراف على السداد الفعلي.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚖️</div>
+                    <h3>صياغة عقود المديونيات</h3>
+                    <p>إعداد اتفاقيات إعادة الهيكلة والتسوية بصياغة قانونية محكمة تضمن حقوق الدائن وتمنع أي ثغرات مستقبلياً.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏢</div>
+                    <h3>تحصيل ديون الشركات</h3>
+                    <p>إدارة ملفات المديونيات المعقدة والضخمة بين المنشآت التجارية والمقاولين والموردين بأساليب متطورة.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>إدارة المحافظ الائتمانية</h3>
+                    <p>تقديم استشارات دورية للمنشآت للحد من تعثر العملاء وبناء سياسات ائتمانية آمنة ومستدامة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Visual Breakdown / Step-by-Step Architecture Guide -->
+    <section id="steps" class="section-padding" style="background-color: var(--bg-alt);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">خارطة الطريق</span>
+                <h2 class="section-title">خطوات استرداد ديونك معنا</h2>
+                <p class="section-subtitle">منهجية منظمة وشفافة تضمن متابعة كل ريال من مستحقاتك خطوة بخطوة.</p>
+            </div>
+            <div class="steps-wrapper">
+                <div class="step-card">
+                    <div class="step-num">1</div>
+                    <h4>دراسة الملف والأوراق</h4>
+                    <p>تقييم المستندات والفواتير والسندات وتحديد القوة القانونية والملاءة المالية للمدين.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">2</div>
+                    <h4>المراسلة والتفاوض الودي</h4>
+                    <p>توجيه إخطارات قانونية رسمية وبدء جولات تفاوضية للوصول لتسوية سريعة.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">3</div>
+                    <h4>الإجراء القضائي المحكم</h4>
+                    <p>قيد الدعوى أو تقديم السند لمحكمة التنفيذ في حال عدم استجابة المدين للتسوية الودية.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">4</div>
+                    <h4>التنفيذ واستلام المبالغ</h4>
+                    <p>متابعة إجراءات حجز الحسابات وتسييل المستحقات وتحويلها مباشرة لحساب العملاء.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Comprehensive Comparison Table / Value Matrix -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">مقارنة الخدمات</span>
+                <h2 class="section-title">لماذا تفضل الشركات التعامل مع المختصين؟</h2>
+                <p class="section-subtitle">جدول يوضح الفرق بين أساليب التحصيل التقليدية والحلول الاستراتيجية الحديثة.</p>
+            </div>
+            <div class="table-wrapper">
+                <table class="comp-table">
+                    <thead>
+                        <tr>
+                            <th>وجه المقارنة</th>
+                            <th>التحصيل الذاتي التقليدي</th>
+                            <th>المكاتب والشركات المتخصصة بالرياض</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>السرعة في الاسترداد</strong></td>
+                            <td>بطيء جدًا (استهلاك وقت طويل)</td>
+                            <td><span class="badge-check">✓ سريعة بفضل الاستراتيجيات المباشرة</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>المعرفة بالنظام واللوائح</strong></td>
+                            <td>محدودة وغير متحدثة</td>
+                            <td><span class="badge-check">✓ إلمام كامل بالتحديثات القضائية وناجز</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>الضغط والتفاوض الاحترافي</strong></td>
+                            <td>ضعيف وقد يخلق نزاعات شخصية</td>
+                            <td><span class="badge-check">✓ مفاوضات مهنية ومحايدة تحافظ على العلاقات</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>معدل النجاح الفعلي</strong></td>
+                            <td>منخفض ويعرض الدين للإعدام</td>
+                            <td><span class="badge-check">✓ مرتفع يتجاوز %90 في أغلب الملفات</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>التكلفة التشغيلية</strong></td>
+                            <td>هدر مستمر في وقت الموظفين</td>
+                            <td><span class="badge-check">✓ عمولة مرتبطة بنجاح التحصيل غالباً</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Interactive FAQ Section -->
+    <section id="faq" class="section-padding" style="background-color: var(--bg-alt);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">الأسئلة الشائعة</span>
+                <h2 class="section-title">كل ما تحتاج معرفته عن التحصيل</h2>
+                <p class="section-subtitle">إجابات شفافة عن أكثر الاستفسارات شيوعاً حول الأوراق والإجراءات القانونية.</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>ما هي المستندات المطلوبة لبدء إجراءات التحصيل؟</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>نحتاج إلى صور الفواتير المعتمدة، العقود المبرمة بين الطرفين، مطالبات كشوف الحساب، السندات لأمر أو الشيكات إن وجدت، وأي خطابات أو إيميلات تثبت كشف المديونيات أو اقرار الطرف الآخر بها.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>كم تستغرق عملية تحصيل الديون بالرياض عادةً؟</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>تختلف المدة بحسب تجاوب المدين وطبيعة الدين؛ الحلول الودية تستغرق عادة من 15 إلى 30 يوماً. أما في المسار القضائي والتنفيذي عبر محكمة التنفيذ فقد تستغرق العملية من شهر إلى 3 أشهر وفق إجراءات الحجز والقرارات الصادرة.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>هل يتم تقديم الخدمات بناءً على نسبة من المبلغ المحصل؟</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>نعم، نعتمد نموذج الاتفاق القائم على نسبة النجاح (Success Fee) في معظم قضايا تحصيل الديون التجارية، حيث تكون الأتعاب مرتبطة بالمبالغ التي يتم استردادها بالفعل مما يوفر الأمان التام للعميل.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>ما التصرف القانوني إذا كان المدين لا يملك أصولاً باسمه؟</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>يتم استخدام أدوات التقصي المالي والمنظومة العدلية لإيقاف الخدمات والتنفيذ على أي حصص للشركة أو أصول مخفية، وتطبيق أحكام الإفلاس أو منع السفر لحين السداد أو التوصل لتسوية ملزمة.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Expert Tips & Best Practices Cards -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">إرشادات هامة</span>
+                <h2 class="section-title">نصائح لحماية منشأتك من التعثر المالي</h2>
+                <p class="section-subtitle">توجيهات خبراء القانون والمالية بالرياض لتفادي تراكم الديون المعدومة.</p>
+            </div>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h3>وثق كافة التعاملات رسمياً</h3>
+                    <p>لا تتساهل في تسليم البضائع أو تقديم الخدمات دون وجود عقود موقعة ومختومة وفواتير استلام محددة التواريخ.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>اطلب سندات لأمر كضمانات</h3>
+                    <p>تعد السندات لأمر أداة تنفيذية موجزة وسريعة تمكنك من التنفيذ الفوري عبر ناجز دون الحاجة للتقاضي الطويل.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>تحرك فور التأخير الأول</h3>
+                    <p>كلما طالت فترة تأخر الدين، انخفضت نسبة احتمال استرداده. المتابعة المبكرة خلال أول 30 يوماً تضمن أفضل النتائج.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. User Feedback & Testimonials Showcase -->
+    <section class="section-padding" style="background-color: var(--bg-alt);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">شهادات الثقة</span>
+                <h2 class="section-title">ماذا يقول رؤساء الشركات عنا؟</h2>
+                <p class="section-subtitle">سجل حافل بالنجاحات مع كبرى المنشآت والمؤسسات التجارية بمدينة الرياض.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <p>بفضل الفريق المختص تمكنا من استرداد مستحقات توريد متأخرة منذ عامين في ظرف 20 يوماً فقط عن طريق التسوية الودية دون دخول المحاكم.</p>
+                    <div class="client-info">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="العميل" class="client-avatar">
+                        <div>
+                            <div class="client-name">م. فهد السبيعي</div>
+                            <div class="client-role">مدير شركة مقاولات بالرياض</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <p>احترافية عالية في التعامل ودراية عميقة بأروقة محاكم التنفيذ بالرياض. استعادوا لنا الملايين التي كنا نعتبرها ديوناً معدومة.</p>
+                    <div class="client-info">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&q=80" alt="العميل" class="client-avatar">
+                        <div>
+                            <div class="client-name">أ. خالد التميمي</div>
+                            <div class="client-role">رئيس مجلس إدارة مجموعة تجارية</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <p>السرعة والشفافية والدقة في التقارير الدورية هي ما يميز فريق تحصيل الديون بالرياض. نعتبرهم شركاء النجاح الحقيقيين لمنشأتنا.</p>
+                    <div class="client-info">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80" alt="العميل" class="client-avatar">
+                        <div>
+                            <div class="client-name">سعود الشمري</div>
+                            <div class="client-role">المدير المالي لشركة استيراد</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Highlighted Resource Banner / Quick Action Callout -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="resource-banner">
+                <h2>لا تدع الديون المتعثرة تؤثر على استمرارية أعمالك!</h2>
+                <p>تواصل معنا اليوم واستفد من تقييم مجاني وشامل لملف المديونيات الخاص بشركتك للوقوف على أفضل المسارات القانونية للتحصيل.</p>
+                <a href="#contact" class="btn-primary" style="background: var(--secondary); color: var(--primary-dark);">احصل على تقييم مجاني لملفك</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. Functional Contact / Consultation Form Section -->
+    <section id="contact" class="section-padding" style="background-color: var(--bg-alt);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">تواصل معنا</span>
+                <h2 class="section-title">طلب استشارة تحصيل أموال</h2>
+                <p class="section-subtitle">أدخل تفاصيل مديونيتك وسيقوم خبير متخصص بالتواصل معك خلال ساعات قليلة.</p>
+            </div>
+            <div class="contact-wrapper">
+                <form id="debtForm" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل / اسم الشركة</label>
+                        <input type="text" id="name" class="form-control" placeholder="مثال: شركة الأفق للتجارة" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">رقم الجوال (السعودية)</label>
+                        <input type="tel" id="phone" class="form-control" placeholder="05xxxxxxxx" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">إجمالي مبلغ الدين التقريبي (ريال سعودي)</label>
+                        <input type="text" id="amount" class="form-control" placeholder="مثال: 250,000 ريال" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">تفاصيل المديونية ونوع المستندات المتوفرة</label>
+                        <textarea id="message" class="form-control" placeholder="اكتب نبذة مختصرة عن طبيعة الدين والأوراق المتوفرة لديك..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%;">إرسال الطلب بشكل سري</button>
+                </form>
+
+                <div class="contact-info-box">
+                    <h3 style="color: var(--primary); font-size: 1.5rem;">مكتب الاستشارات بالرياض</h3>
+                    <p style="color: var(--text-muted);">نحن هنا لمساعدتك على استعادة كافة حقوقك المالية بأعلى قدر من المهنية والسرية.</p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <strong>الموقع الرئيسي:</strong>
+                            <p style="font-size: 0.95rem; color: var(--text-muted);">طريق الملك فهد، حي العليا، الرياض، المملكة العربية السعودية</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <strong>الهاتف المباشر:</strong>
+                            <p style="font-size: 0.95rem; color: var(--text-muted);">920000000 / 0110000000</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                            <strong>البريد الإلكتروني:</strong>
+                            <p style="font-size: 0.95rem; color: var(--text-muted);">info@debtrecoveryriyadh.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 14. Comprehensive Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="logo" style="color: var(--white);">
+                        <div class="logo-icon">⚖️</div>
+                        <span>دليل تحصيل الديون بالرياض</span>
+                    </div>
+                    <p>المنصة الرائدة والمنصة المتخصصة في تقديم الاستشارات والاستراتيجيات القانونية الشاملة لتحصيل المستحقات والديون التجارية بكفاءة واحترافية عالية داخل مدينة الرياض.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">روابط السريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#overview">عن المنصة</a></li>
+                        <li><a href="#article">الدليل الشامل</a></li>
+                        <li><a href="#features">خدماتنا</a></li>
+                        <li><a href="#steps">خطوات العمل</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">الأنظمة السعودية</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.moj.gov.sa" target="_blank" rel="noopener">وزارة العدل</a></li>
+                        <li><a href="https://najiz.sa" target="_blank" rel="noopener">بوابة ناجز العدلية</a></li>
+                        <li><a href="#">نظام التنفيذ ولائحته</a></li>
+                        <li><a href="#">نظام المحاكم التجارية</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">تواصل معنا</h4>
+                    <ul class="footer-links">
+                        <li><a href="#contact">طلب استشارة</a></li>
+                        <li><a href="#">الرياض - حي العليا</a></li>
+                        <li><a href="#">ساعات العمل: 8:00 ص - 5:00 م</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة © 2026 دليل تحصيل الديون بالرياض | منصة قانونية استشارية مستقلة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Minimal Vanilla JS -->
+    <script>
+        // FAQ Accordion Functionality
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                const parent = item.parentElement;
+                
+                // Close other open items
+                document.querySelectorAll('.faq-item').forEach(child => {
+                    if (child !== parent) {
+                        child.classList.remove('active');
+                    }
+                });
+
+                // Toggle current item
+                parent.classList.toggle('active');
+            });
+        });
+
+        // Simple Form Handler Simulation
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            alert(`شكراً لك ${name}، تم استلام طلبك بنجاح. سيقوم مستشارنا بالاتصال بك قريباً.`);
+            document.getElementById('debtForm').reset();
+        }
+    </script>
+</body>
+</html>
